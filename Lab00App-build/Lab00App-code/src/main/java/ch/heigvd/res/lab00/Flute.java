@@ -6,10 +6,11 @@ public class Flute implements IInstrument{
 
     
     int volume = 1;
+    String sound = "trilili";
     
     @Override
     public String play() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+       return sound;
     }
 
     @Override
